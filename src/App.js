@@ -1,17 +1,18 @@
-import MyDiv1 from './01/MyDiv1';
-import MyDiv2 from './01/MyDiv2';
-import MyClock from './01/MyClock';
-
 import './App.css';
-
+import Taccident from './05/Taccident';
+import Gal from './06/Gal'
+import Mycom from './07/Mycom';
+import Myform from './08/Myform';
 const App=()=> {
   return (
-  <div className="App-header">
-    <MyDiv1 />
-    <MyDiv2 />
-    <MyClock />
-  </div>
-  );
+  //  <div>
+  //    <Frcst />
+  //  </div>
+  //<Taccident/>
+  //  <Mycom />
+   <Gal/>
+   //<Myform/>
+      );
 }
 
 export default App;

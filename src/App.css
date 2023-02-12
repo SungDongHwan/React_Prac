@@ -44,3 +44,12 @@ a:hover, a:active{
   color: yellowgreen;
   background-color: #282c34;
 }
+.data {
+  width: 50vw;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: top;  
+  margin: 10px; 
+}
