@@ -30,7 +30,8 @@ h1{
 }
 
 img {
-    height: 30vh;
+    height: 50vh;
+    width: 80%;
     border-radius: 20px;
 }
 .sp2{
@@ -51,7 +52,7 @@ ul > li {
 .data{
     margin : 10px;
     height: 80%;
-    width: auto;
+    width: 50%;
     border-radius: 12px;
 }
 ul {
@@ -109,6 +110,6 @@ input[type=txt]{
     border: 1px solid  black;
     height : fit-content;
     margin : 10px;
-    width: 70%;
+    width: 50%;
 
 }

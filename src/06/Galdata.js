@@ -1,7 +1,6 @@
 const Galdata = ({ selData }) => {
     console.log("galData", selData) 
 
-
     let dTags;
     if (Object.keys(selData).length > 0) {
         let keys = [ "galWebImageUrl","galTitle", "galPhotographyMonth", "galPhotographyLocation", "galPhotographer", "galSearchKeyword"]
