@@ -1,0 +1,67 @@
+.header{
+    width: 100vw;
+    height: 20vh;
+    display:flex;
+    flex-direction: row;
+    /* flex로 위치를 잡아주는 것. -밑으로 떨구기위해*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 51, 72)
+    
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    /* flex로 위치를 잡아주는 것. -밑으로 떨구기위해*/
+    justify-content: center;
+    align-items: center;
+}
+.mydiv1, .mydiv2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    display: flex;
+
+}
+.mydiv1{
+    width: 30vw;
+    height: 90vh;
+    background-color: aquamarine;
+}
+.mydiv2{
+    width: 70vw;
+    height: 90vh;
+    background-color: rgb(29, 110, 72);
+}
+.main{
+    width: 100vw;
+    height: 80vh;
+    display:flex;
+    flex-direction: row;
+    /* flex로 위치를 잡아주는 것. -밑으로 떨구기위해*/
+    justify-content: center;
+    align-items: top;
+    
+}
+.mydiv11,.mydiv21{
+    color: black;
+    width: 90%;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mydiv11>p,.mydiv21>p{
+    font-size: 20px;
+    border: 1px, solid, black;
+
+}
+.divbt>button, .divbt>span{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

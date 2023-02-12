@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(9, 37, 62);
+}
+h1{
+    color : burlywood;
+    font-size: 5vh;
+}
+.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+.content{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+}
+.rowDiv,.rowDiv0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 6vh;
+    border-bottom: 1px solid ;
+}
+.rowDiv:hover, .rowDiv:active{
+    background-color: bisque;
+}
+.col {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#rank {
+    width:20%;
+}
+#rankInten {
+    width:25%;
+}
+#movieNm {
+    width:50%;
+}
+#salesAmt {
+    width:20%;
+}
+.spup{
+    color:red;
+}
+.spdown{
+    color:blue;
+}
+.rowDay{
+    width: 70vw;
+    height: 4vh;
+    padding: 12px;
+    background-color: rgb(126, 5, 5);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+}
+.rowDiv0{
+    background-color: rgb(230, 201, 207);
+    color: blue;
+}

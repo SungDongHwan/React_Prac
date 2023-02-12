@@ -1,0 +1,24 @@
+input[type=text],select,input[type=password]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+
+}
+input[type=button], input[type=reset] {
+    background-color: #8000ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 6px;
+    cursor: pointer;
+    display: inline-flex;
+
+}
+.button:hover,.button:active{
+    background-color: blue;
+}
+#msg > span{
+    color: rgb(7, 224, 0);
+}

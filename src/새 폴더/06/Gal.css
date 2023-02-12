@@ -35,10 +35,8 @@ img {
 }
 .sp2{
     width:100%;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 2%;
-    font-family:'Segoe UI';
-    font-weight: bold;
 
 }
 ul > li {
@@ -46,20 +44,17 @@ ul > li {
     justify-content: left;
     align-items: left;
     width: 100%;
-    
 }
 .data{
     margin : 10px;
     height: 80%;
-    width: auto;
+    
     border-radius: 12px;
 }
 ul {
     display: flex;
     align-items: left;
     justify-content: left;
-    flex-direction: column;
-    list-style: none;
     margin : 10px;
     width : 80%;
 
@@ -72,22 +67,14 @@ ul {
     align-items: center;
     justify-content: top;
     cursor: pointer;
+
+}
+.List>.conleftdiv{
+    background-color: blue;
+    padding: 10px;
+    box-sizing: 200px;
 }
 
-.tcard, .tcardSel {
-    width: 100%;
-    height: 40px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
-}
-.tcard:hover, .tcard:active, .tcardSel {
-    background-color: darkblue;
-    color: white;
-}
 button[type=reset] {
     background-color: #8000ff;
     border: none;
@@ -99,16 +86,4 @@ button[type=reset] {
     display: inline-flex;}
 input[type=txt]{
     width:max-content;
-}
-.data {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    border: 1px solid  black;
-    height : fit-content;
-    margin : 10px;
-    width: 70%;
-
 }
